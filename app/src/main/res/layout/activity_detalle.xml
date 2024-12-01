@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.DetalleActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvPelicula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Texto pantalla detalle"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvDuracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Duracion: "/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivImagen"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/tvCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Categoria"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Reparto"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvReparto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Reparto"/>
+
+
+    <Button
+        android:id="@+id/btnDialogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver disponibilidad"
+        android:layout_marginVertical="20dp"/>
+
+
+</LinearLayout>
